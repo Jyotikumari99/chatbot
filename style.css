@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Peralta&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Peralta", cursive;
+}
+body {
+  background-color: aqua;
+}
+.container {
+  --light-color: #fff;
+  height: 420px;
+  width: 350px;
+  background-color: var(--light-color);
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  box-shadow: 10px 10px 25px 0px rgb(250, 108, 248);
+}
+.chat-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  background-color: rgb(193, 32, 243);
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+.chat-header .logo {
+  height: 35px;
+  width: 35px;
+  box-shadow: 0px 0px 20px 0px rgb(225, 225, 233);
+  border-radius: 50%;
+}
+.chat-header img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.chat-header .title {
+  padding: 10px;
+}
+.chat-body {
+  height: 300px;
+  display: flex;
+}
+.chat-input {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(120, 119, 117);
+}
+.input-sec{
+     flex:9;
+     
+}
+.send{
+     flex: 1;
+     padding-right: 4px;
+}
+.send img{
+     height: 100%;
+     width: 100%;
+}
+#txtinput{
+     line-height: 30px;
+     padding: 8px 10px;
+     border: none;
+     outline: none;
+     caret-color: rgb(250, 19, 19);/*cursor color which is caret*/
+     font-size: 1rem;
+     width: 100%;
+}
